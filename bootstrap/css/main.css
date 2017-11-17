@@ -1,0 +1,8 @@
+/*body{
+  max-width: 400px;
+  margin: 20px auto;
+}*/
+
+.table-striped>tbody>tr:nth-of-type(odd){
+  background-color: grey;
+}

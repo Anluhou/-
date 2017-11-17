@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jay Skript and the Domsters</title>
+  <script src="scripts/modernizr.custom.76048.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="styles/basic.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.gif" alt="Jay Skript and the Domsters">
+  </header>
+  <nav>
+      <ul>
+        <li><a href="index.html" class="here">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="live.html">Live</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </nav>
+  <article>
+    <h1>Contact the band</h1>
+    <form action="submit.html" method="post">
+      <fieldset>
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required="required" onfocus="this.placeholder=''" onblur="this.placeholder='Your Name'">
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your email address" required="required" onfocus="this.placeholder=''" onblur="this.placeholder='Your email address'">
+        </p>
+        <p>
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" cols="45" rows="7" required="required" placeholder="Write your message here." onfocus="this.placeholder=''" onblur="this.placeholder='Write your message here.'"></textarea>
+        </p>
+        <input type="submit" value="Send">
+      </fieldset>
+    </form>
+  </article>
+  <script src="scripts/global.js" charset="utf-8"></script>
+</body>
+</html>

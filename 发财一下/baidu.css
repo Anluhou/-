@@ -1,0 +1,105 @@
+body{
+  width: 100%;
+  text-align: center;
+}
+.div{
+  display: block;
+}
+.nav{
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 19px 0 5px 0;
+  padding: 0 20px 0 0;
+}
+.nav a{
+  color: #333;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.nav a:hover{
+  color:#00c;
+}
+.pic{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.logo img{
+  width: 270px;
+  height: 129px;
+}
+form{
+  text-align: center;
+}
+ input{
+  width: 539px;
+  height: 34px;
+  border: 1px solid #b6b6b6;
+  vertical-align:middle;
+  padding: 0;
+}
+form #button{
+  width: 100px;
+  height: 36px;
+  background: #3385ff;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border: 1px solid #2d78f4;
+  outline: medium;
+  vertical-align:middle;
+}
+
+.foot,.foot a{
+  color: #999;
+}
+.foot{
+  width: 100%;
+  position:absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+#menu{
+  display: none;
+}
+
+#menu-open{
+  border-bottom: 1px solid #38f;
+  background: #38f;
+  color: #fff;
+  right: 10px;
+  width: 60px;
+  font-size: 13px;
+  margin-left: 19px;
+  margin-right: 2px;
+  line-height: 24px;
+  padding: 3px;
+}
+
+#menu:checked ~ .menu-list{
+  display: block;
+}
+
+.menu-list{
+  display: none;
+  text-align: right;
+}
+
+iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#time{
+  position: absolute;
+  top:30px;
+  left:20px;
+  font-weight: 500;
+}
