@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Translate</title>
+  <link rel="stylesheet" href="trans.css">
+  <script type="text/javascript">
+    //textarea 自适应高度
+    $('textarea').each(function () {
+      this.setAttribute('style', 'height:' + (this.scrollHeight) + 'px;overflow-y:hidden;');
+      }).on('input', function () {
+      this.style.height = 'auto';
+      this.style.height = (this.scrollHeight) + 'px';
+    });
+  </script>
+</head>
+<body>
+  <div class="btn">
+    <button id="selectBtn" name="Click">Translate</button>
+  </div>
+  <textarea id="transInput" placeholder="输入文字即可翻译" dir=ltr  ></textarea>
+  <textarea id="transDisplay"></textarea>
+<script src="jquery.js" type="text/javascript"></script>
+<script src="md5.js" charset="utf-8"></script>
+<script src="trans.js" charset="utf-8"></script>
+</body>
+</html>
